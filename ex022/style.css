@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1{/* box-level= quebra a linha, ocupa toda a linha, "expulsa"o conteudo p baixo */
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    border: 10px solid blue;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    outline: 10px double red;
+
+}
+
+a {/* inline-level= n ocupa toda a linha, n quebra a linha, segue o conteudo */
+    border: 10px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: black;
+}
+
+p{
+    text-align: center;
+}

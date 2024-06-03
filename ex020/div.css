@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    font: normal 16px Arial, Verdana, serif
+}
+
+div:hover{
+    color: rgb(141, 8, 141);
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: blue;
+    background-color: red ;
+    width: 300px;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #1d40a7b4, #4fb0c6a6);
+    font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+h1#piranha{
+    color: #0400ff;
+    background-color: #1c1a8a67;
+    text-align: center;
+}
+
+h1{
+    color: #100dbe;
+    
+}
+
+h2{
+    color: #1c1a8a;
+}
+
+/*
+    Em HTML é id=   Em CSS é #(Só 1)
+    Em HTML é class=   Em CSS é .(vários)
+*/
+
+.basicol{
+    color: rgb(160, 57, 57);
+}
+
+.intermediario{
+    color: rgb(194, 145, 55);
+}
+
+.avançadao{
+    color: rgb(218, 221, 8);
+}
+

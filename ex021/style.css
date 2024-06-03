@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children(filho)
+*/
+
+body {
+    font: normal 17px Arial,Verdana,serif
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+a::after{
+    content: 'Olá,Fdp';
+    text-decoration: none;
+    font-weight: normal;
+    color: green;
+}
+
+a::before{
+    content: 'ola filho';
+    background-color: rgba(41, 126, 41, 0.466);
+}
+
+.bom::after{
+    content: 'meu deus';
+    color: yellow
+}
+
+.bom::before{
+    content: '';
+}
+
