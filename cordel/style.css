@@ -18,16 +18,16 @@
 header{
     background-color: var(--var-cor1);
     color: var(--var-cor2);
-    padding: 60px 50px 50px 100px;
+    
     text-align: center;
-    display: relative;
 }
 
 header > h1{
     font-size: 6vw;
 }
 
-header > p{
-    padding-bottom: 50px;
-}
+
+
+
+
 
