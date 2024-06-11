@@ -1,29 +1,53 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-size: 1em;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Libre+Caslon+Display&family=Lobster&family=Quintessential&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Lobster&family=Quintessential&display=swap');
 
 :root{
-    --fonte-padrao: 'Lobster',serif;
-    --fonte-imagem: 'Libre Caslon Display',serif;
+    --fonte-padrao: 'Kurale', serif;
+    --fonte-imagem: 'Libre Caslon Display', serif;
     --var-cor1: rgb(0, 0, 0);
     --var-cor2: white;
 }
 
+
 header{
     background-color: var(--var-cor1);
     color: var(--var-cor2);
-    
+    padding: 60px 100px 0px 100px;
     text-align: center;
 }
 
 header > h1{
     font-size: 6vw;
+    
+}
+
+header > p{
+    padding: 40px;
+    font-size: 1.2em;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--var-cor2);
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.sec01 > p{
+    line-height: 2.5em;
+    padding: 10px;
+    margin-top: 120px;
+    font-size: 5vh;
+    
 }
 
 
