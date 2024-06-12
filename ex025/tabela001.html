@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira tabela</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+
+        td{
+            border: 1px solid black;
+            width: 300px;
+            padding: 10px;
+            color: purple;
+            text-align: center;
+            height: 100px;
+        }
+
+        td:active{
+            text-decoration: underline;
+            background-color: blue;
+            text-shadow: 1px 1px 1px black;
+            transition: 1s all;
+            vertical-align: top;
+        }
+
+        .eu:active{
+            vertical-align: bottom;
+            background-color: chocolate;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+
+    <table>
+        <tr>
+            <td class="eu">A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td class="eu">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td class="eu">B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td class="eu">A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
