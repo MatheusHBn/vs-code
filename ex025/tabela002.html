@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelinhas</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 900px;
+            height: 300px;
+            margin: auto;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 5px;
+            font-weight: normal;
+            font-size: 1em;
+            background-color: rgb(211, 224, 238);
+            color: black;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 5px;
+            background-color: rgb(56, 55, 55);
+            color: white;
+            font-weight: bold;
+        }
+
+        .numero{
+            text-align: center;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgrey;
+        }
+
+    </style>
+</head>
+<body>
+        <table>
+            
+            <caption>Mecânicas de Celeste</caption>
+            <thead>
+                <th scope="col">Envolve</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Dificuldade</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>SuperDash</td>
+                    <td class="numero">1/10</td>
+                </tr>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>HyperDash</td>
+                    <td class="numero">2/10</td>
+                </tr>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>WaveDash</td>
+                    <td class="numero">2/10</td>
+                </tr>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>HyperB-Hop</td>
+                    <td class="numero">4/10</td>
+                </tr>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>Reverse SuperDash</td>
+                    <td class="numero">2/10</td>
+                </tr>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>Reverse HyperDash</td>
+                    <td class="numero">4/10</td>
+                </tr>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>Wallbounce</td>
+                    <td class="numero">3/10</td>
+                </tr>
+                <tr>
+                    <td>Dash + Pulo</td>
+                    <td>WaveB-Hop</td>
+                    <td class="numero">5/10</td>
+                </tr>
+                <tr>
+                    <td>Dash </td>
+                    <td>DemoDash</td>
+                    <td class="numero">7/10</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Envolve Dash e Pulo</th>
+                    <th scope="row">Alguns tem "Dash" no Nome</th>
+                    <th scope="row">2 São difíceis</th>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+</html>
