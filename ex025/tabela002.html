@@ -12,9 +12,8 @@
 
         table{
             border-collapse: collapse;
-            width: 900px;
-            height: 300px;
-            margin: auto;
+            width: 500px;
+            position: relative;
         }
 
         td{
@@ -22,20 +21,25 @@
             padding: 5px;
             font-weight: normal;
             font-size: 1em;
-            background-color: rgb(211, 224, 238);
-            color: black;
         }
 
         th{
             border: 1px solid black;
             padding: 5px;
             background-color: rgb(56, 55, 55);
-            color: white;
+            color: rgb(255, 255, 255);
             font-weight: bold;
         }
 
         .numero{
             text-align: center;
+        }
+
+        thead th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(56, 55, 55);
+            width: 500px;
         }
 
         caption{
@@ -44,20 +48,25 @@
             background-color: lightgrey;
         }
 
+        tbody tr:nth-child(odd){
+            background-color: lightslategray;
+        }
+
     </style>
+
 </head>
 <body>
         <table>
-            
             <caption>Mecânicas de Celeste</caption>
             <thead>
-                <th scope="col">Envolve</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Dificuldade</th>
+                <th>Envolve</th>
+                <th>Nome</th>
+                <th>Dificuldade</th>
+
             </thead>
 
             <tbody>
-                <tr>
+                <tr class="oi">
                     <td>Dash + Pulo</td>
                     <td>SuperDash</td>
                     <td class="numero">1/10</td>
@@ -72,7 +81,7 @@
                     <td>WaveDash</td>
                     <td class="numero">2/10</td>
                 </tr>
-                <tr>
+                <tr class="oi">
                     <td>Dash + Pulo</td>
                     <td>HyperB-Hop</td>
                     <td class="numero">4/10</td>
@@ -82,7 +91,7 @@
                     <td>Reverse SuperDash</td>
                     <td class="numero">2/10</td>
                 </tr>
-                <tr>
+                <tr class="oi">
                     <td>Dash + Pulo</td>
                     <td>Reverse HyperDash</td>
                     <td class="numero">4/10</td>
@@ -92,7 +101,7 @@
                     <td>Wallbounce</td>
                     <td class="numero">3/10</td>
                 </tr>
-                <tr>
+                <tr class="oi">
                     <td>Dash + Pulo</td>
                     <td>WaveB-Hop</td>
                     <td class="numero">5/10</td>
@@ -103,13 +112,36 @@
                     <td class="numero">7/10</td>
                 </tr>
             </tbody>
-            <tfoot>
-                <tr>
-                    <th scope="row">Envolve Dash e Pulo</th>
-                    <th scope="row">Alguns tem "Dash" no Nome</th>
-                    <th scope="row">2 São difíceis</th>
-                </tr>
-            </tfoot>
         </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum debitis odio, architecto incidunt repudiandae, suscipit veniam maiores eius laboriosam vitae illum placeat tempora recusandae eligendi. Eos voluptate sed doloremque aliquam.
+        Aliquid a corrupti eius ab dolor dicta libero praesentium, suscipit illo dolorum unde velit sequi perferendis aut voluptas doloribus. Totam, asperiores quibusdam. Corporis et inventore modi, ipsum corrupti hic odit.
+        Recusandae voluptate enim ut explicabo quam repellendus nam dolorem voluptatem officiis sit rerum, itaque est officia numquam quia quis? Distinctio aliquid repudiandae veniam unde porro eum quisquam nulla, debitis quasi.
+        At ducimus perspiciatis doloremque odio voluptates commodi possimus pariatur hic vel, mollitia nesciunt delectus. Repudiandae atque culpa expedita inventore nulla, fugit obcaecati vitae voluptate sunt reiciendis sint totam, harum quos!
+        Voluptas molestiae voluptatem eum adipisci quaerat animi, quasi repellat, inventore, laudantium quas quidem. Tenetur sapiente ut nihil facere, sed, doloribus cupiditate minus, odit dolore incidunt aperiam iure enim totam? A.
+        Vitae voluptate quis cum voluptas dolore inventore dolorum, quod illum accusantium, tempora sequi magnam laborum dolorem, eveniet est? Illum quis provident rem, iusto assumenda voluptates modi sit ipsam magni at.
+        Commodi deserunt maxime molestias veritatis? Recusandae suscipit cumque repellendus blanditiis possimus totam. Dolor aspernatur aperiam consequuntur dicta vel quasi tempora nobis, veniam nostrum ducimus dolorum reiciendis inventore totam vero. Magnam!
+        Hic reiciendis assumenda iure nulla itaque obcaecati fugit incidunt, distinctio inventore mollitia, ipsa similique beatae labore error adipisci recusandae! Optio earum quas molestias asperiores perspiciatis aut veritatis iusto ab ipsum?
+        Facere nostrum veritatis aliquam laudantium provident ex praesentium libero sequi quia quae, rerum consequuntur, laboriosam, dolore consequatur velit? Voluptatem porro, odit sed adipisci repellendus quaerat consequatur magnam in reiciendis distinctio.
+        Hic cum sequi officia, id nemo, accusantium, repellendus iusto aliquid optio nesciunt blanditiis! Enim, quas. At inventore modi omnis necessitatibus. Id corrupti dolore, quas fuga qui accusamus facilis dolores ad?
+        Facere fugiat tempore voluptatibus? Quaerat eum facere, excepturi totam quasi accusamus, ipsam laborum aspernatur accusantium expedita quo itaque nihil deleniti. Magnam natus quibusdam tempora dolores aliquam tenetur voluptatum, placeat blanditiis!
+        Corrupti, libero eligendi debitis, minima aliquid minus magnam fugiat obcaecati rerum modi reprehenderit exercitationem vitae totam officiis esse impedit. Amet omnis repellendus perspiciatis eum non tempore modi ipsum quia expedita.
+        Blanditiis praesentium ex explicabo molestiae cumque itaque dolor deserunt, neque harum facere, consequatur in quam, id similique quas asperiores doloremque! Non id ullam fuga ipsum minima quaerat sapiente? Enim, consequuntur.
+        Hic rerum vel deleniti labore incidunt eaque perferendis neque exercitationem doloremque a illo at minima accusamus, numquam impedit obcaecati tempore quibusdam, iure aspernatur mollitia enim laborum possimus amet? Blanditiis, ex!
+        Exercitationem quis assumenda a odit dolore, nostrum vitae non rem cum velit, doloribus modi nihil maiores unde ducimus earum. Delectus labore officia, doloribus est quisquam sint cumque harum temporibus architecto.
+        Totam magnam ullam vel cumque. Est totam corrupti reiciendis unde voluptates, sequi vel sapiente iste! Ab omnis iusto quaerat ex dicta? Perferendis eaque cumque dolores delectus molestias cupiditate et illum.
+        Reprehenderit aliquam quisquam atque, nam eos praesentium alias id minima, distinctio fugiat consectetur repudiandae maiores tenetur at ad amet ratione numquam, error blanditiis! Dolores tempora omnis vero, adipisci vel numquam!
+        Fugiat est maxime excepturi quaerat, deleniti sequi unde veniam natus ratione? Suscipit amet nulla dolore aliquid, repellendus ipsum! Nisi quas cumque doloribus cupiditate consectetur adipisci, dolorem eius? Cum, accusantium praesentium.
+        Illum ipsum voluptatem nostrum nobis explicabo minima dolor aperiam nam totam esse consectetur ullam, rerum dolorum, aspernatur quod non facere harum adipisci ex sapiente modi excepturi illo quisquam recusandae. Assumenda?
+        Laudantium minima recusandae molestias libero! Ipsum dolorum repudiandae amet voluptatem eius sequi nostrum ex aspernatur voluptatum ducimus tenetur incidunt, hic debitis nobis autem, eos accusamus illum, iste harum? Necessitatibus, cumque!
+        Facilis vero dicta qui illo! Voluptatum debitis tempora maxime ab possimus culpa architecto quasi ad necessitatibus asperiores voluptas laboriosam temporibus, quis officiis odio enim vitae! Consequatur tempora eius quasi. Perferendis!
+        Aliquid, earum quasi suscipit doloribus facere saepe voluptatem cumque in esse voluptas voluptate, omnis minima. Neque dicta excepturi unde sapiente rerum eveniet, dolore a nemo, iusto dolores similique libero alias.
+        Eveniet nesciunt nisi porro aspernatur ducimus dolor accusamus sapiente, incidunt pariatur corrupti veniam, a labore velit! Aliquam rerum est ullam atque animi sed eos temporibus doloribus error! Deserunt, vel nesciunt.
+        Dolor reprehenderit deserunt debitis quod magni consequatur, nesciunt incidunt eligendi minima fugit odit accusantium temporibus ipsum facilis exercitationem explicabo harum amet nam adipisci dicta at fugiat! Laudantium atque temporibus est.
+        Inventore quaerat labore, nemo odit exercitationem accusantium dolor fugit alias recusandae unde veniam, dicta, sequi praesentium. Incidunt nemo delectus ullam laudantium fuga nulla cumque vero sapiente! Officiis est distinctio dicta!
+        Consequatur voluptatum, ut odio a maxime nulla ad velit sed fugit porro magnam corporis nostrum illo sapiente amet provident nam dolor delectus laboriosam et sit! Qui sunt odit molestias laboriosam.
+        Minima voluptates animi fuga asperiores vero impedit! Asperiores recusandae exercitationem temporibus ipsam, voluptates ad illo hic impedit atque neque nobis quaerat laborum, optio ipsum enim ducimus maxime odit est harum.
+        Earum enim, unde autem dolorum, aperiam inventore quo facere ex alias quia ut voluptate hic quaerat laudantium qui. Culpa non accusantium nam eligendi optio molestias illo modi numquam, quas asperiores.
+        Corrupti voluptates adipisci iusto ducimus assumenda nostrum quis suscipit exercitationem dolores animi at totam fugiat asperiores dolorem molestias, similique eligendi illo voluptatem atque nisi obcaecati expedita quidem facilis sint. Eum!
+        Rerum, sed tenetur. Quo doloremque impedit distinctio perferendis id odio voluptate cupiditate optio iusto rem culpa officiis libero ab unde blanditiis consequuntur sit ipsa qui laudantium, quia eos ipsam dignissimos!</p>
 </body>
 </html>

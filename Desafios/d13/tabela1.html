@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá, Mundo!</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(132, 190, 132, 0.534);
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td{
+            border: 1px solid black;
+            width: 100px;
+            height: 50px;
+            background-color: rgba(38, 168, 20, 0.644);
+            text-align: center;
+        }
+
+        td:hover{
+            background-color: rgb(86, 238, 16);
+        }
+
+        p a{
+            text-decoration: none;
+            color: rgb(0, 26, 255);
+        }
+
+        p a:hover{
+            text-decoration: underline;
+            color: rgba(0, 4, 255, 0.603);
+        }
+
+        p a::after{
+            content: "🔗";
+        }
+    </style>
+</head>
+<body>
+    <h1>Parte 1</h1>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+    </table>
+    <p>Clique <a href="tabela2.html">Aqui</a>Para ver a segunda parte do desafio :D</p>
+</body>
+</html>
