@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        td{
+            border: 1px solid black;
+            width: 180px;
+            height: 40px;
+        padding-left: 20px;
+        }
+
+        th{
+            border: 1px solid black;
+            width: 250px;
+            height: 40px;
+        }
+
+        .filhos{
+            color: red;
+        }
+
+        .eu{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="eu" span="3">
+            <col class="filhos">
+            <col class="dois">
+            <col class="voce">
+
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jardineiro</td>
+            </tr>
+            <tr>
+                <td>João da Silva</td>
+                <td>M</td>
+                <td>32</td>
+                <td>Fotógrafo</td>
+            </tr>
+            <tr>
+                <td>Matheus Henrique</td>
+                <td>M</td>
+                <td>27</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Maria Fernanda</td>
+                <td>F</td>
+                <td>24</td>
+                <td>Telemarketing</td>
+            </tr>
+            <tr>
+                <td>Maicon de Jesus</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Barbeiro</td>
+            </tr>
+            <tr>
+                <td>Leandro Araujo</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Desempregado</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
