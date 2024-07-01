@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe escolha</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: lightgray;
+        }
+
+        iframe{
+            width: 90%;
+            border: 2px solid black;
+            height: 380px;
+            transition: 1s;
+        }
+
+        ul a{
+            text-decoration: none;
+            color: red;
+        }
+
+        ul a:hover{
+            text-decoration: underline;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha ai</h1>
+    <p>Vou deixar uma lista, onde vc pode escolher qual a pag q vai aparecer no iframe ai embaxio</p>
+    <ul>
+        <li><a href="paginas-extras/pag01.html" target="meu">Página sobre mim</a></li>
+        <li><a href="paginas-extras/pag002.html" target="meu">Página sobre meus gostos</a></li>
+        <li><a href="paginas-extras/pag003...html" target="meu">Página sobre meus passa-tempos</a></li>
+    </ul>
+    <p>Ent vai funcionar assim, você vai ter 3 opções, a 1,2 ou 3, em qual você clicar, vai aparecer no iframe abaixo, então vc ta esperando oq, clica ai</p>
+    <iframe srcdoc="<h1>Olá, tudo bom fi?</h1><p>Essa página aqui deu trabaio p fazer, então por favor, escolhe um negocio ai em cima fi, vlw</p><img scr='imagens/historia-celeste-pq.png'>"frameborder="0" name="meu">
+    </iframe>
+    <p>então ta ai, isso parece ser fácil de fazer, mas é mais difícil doq parece, vlw ai</p>
+</body>
+</html>
